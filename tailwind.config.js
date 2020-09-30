@@ -7,6 +7,10 @@ module.exports = {
     enabled: false,
   },
   theme: {
+    fontFamily: {
+      'titres' : ['Helvetica'],
+      'textes' : ['Bangers'],
+    },
     extend: {
       colors: {
         'regal-yellow': '#fbbf13',
