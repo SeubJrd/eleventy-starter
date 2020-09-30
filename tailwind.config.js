@@ -7,8 +7,12 @@ module.exports = {
     enabled: false,
   },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'regal-yellow': '#fbbf13',
+      }
+    }
   },
   variants: {},
   plugins: [],
-}
+};
