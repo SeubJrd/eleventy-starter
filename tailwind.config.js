@@ -12,6 +12,9 @@ module.exports = {
       'textes' : ['Bangers'],
     },
     extend: {
+      screens: {
+        'portrait': {'raw': '(orientation: portrait)'},
+      },
       colors: {
         'regal-yellow': '#fbbf13',
       }
